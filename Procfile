@@ -1,2 +1,1 @@
-web: gunicorn milestone4_website.wsgi:application --log-file - --log-level debug
-python3 manage.py collectstatic
+web: gunicorn milestone4_website.wsgi --log-file - --log-level debug
