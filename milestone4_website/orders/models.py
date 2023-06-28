@@ -1,6 +1,6 @@
 from django.db import models
-from products.models import Product
-from users.models import User
+from milestone4_website.products.models import Product
+from milestone4_website.users.models import User
 
 # Create your models here.
 class OrderManager(models.Manager):

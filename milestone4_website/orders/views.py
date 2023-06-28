@@ -6,9 +6,9 @@ from django.shortcuts import render
 from django.views.generic.base import TemplateView
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
-from users.models import User
-from orders.models import Order
-from products.models import Product
+from milestone4_website.users.models import User
+from milestone4_website.orders.models import Order
+from milestone4_website.products.models import Product
 
 # Create your views here.
 @csrf_exempt  
