@@ -44,10 +44,10 @@ LOGOUT_REDIRECT_URL = "/"
 # Application definition
 
 INSTALLED_APPS = [
-    'users',
-    'products',
-    'orders',
-    'home',
+    'milestone4_website.users',
+    'milestone4_website.products',
+    'milestone4_website.orders',
+    'milestone4_website.home',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
-AUTH_USER_MODEL = "users.User"  # new
+AUTH_USER_MODEL = "milestone4_website.users.User"  # new
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
